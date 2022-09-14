@@ -23,3 +23,18 @@ for line in data:
     res *= list[pos]
 print(res)
 
+n = int(input('Введите N: '))
+a = []
+for i in range(-n, n+1):
+a.append(i)
+print(a, sep=',')
+
+l = []
+with open('file.txt', 'r') as f:
+for line in f:
+l.append(int(line))
+
+c = l[0]
+d = l[1]
+k = a[c]*a[d]
+print('Произведение элементов на указанных в файле позициях = ', k)

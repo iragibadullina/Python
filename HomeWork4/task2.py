@@ -10,3 +10,4 @@ while i <= num:
     else:
         i += 1
 print(lst)
+#

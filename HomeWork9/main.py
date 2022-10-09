@@ -1,6 +1,5 @@
 import logging
-from telegram.ext import Updater, MessageHandler, Filters, CommandHandler, ConversationHandler, RegexHandler, \
-    messagequeue as mq
+from telegram.ext import Updater, MessageHandler, Filters, CommandHandler, ConversationHandler, RegexHandler,  messagequeue as mq
 
 from game import tic, tac, start_game
 from settings import TOKEN_FOR_BOT
